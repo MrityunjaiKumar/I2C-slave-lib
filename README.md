@@ -83,4 +83,4 @@ device from the bus
 
 ![GPLv3 Logo](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-The source code of `I2C-Master-lib` is published under the GNU GPLv3, see LICENSE for details.
+The source code of `I2C-slave-lib` is published under the GNU GPLv3, see LICENSE for details.
