@@ -79,3 +79,8 @@ the address passed into the function
 This function disables the TWI peripheral completely and therefore isolates the
 device from the bus
 		
+## License
+
+![GPLv3 Logo](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+The source code of `I2C-Master-lib` is published under the GNU GPLv3, see LICENSE for details.
