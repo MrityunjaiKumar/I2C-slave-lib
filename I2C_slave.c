@@ -77,7 +77,9 @@ ISR(TWI_vect){
 			}
 		}
 	}
-	else if( (TWSR & 0xF8) == TW_ST_DATA_ACK ){ // device has been addressed to be a transmitter
+	else if( 
+		(TWSR & 0xF8) == TW_ST_DATA_ACK
+		|| (TWSR & 0xF8) == TW_ST_SLA_ACK){ // device has been addressed to be a transmitter
 		
 		// copy data from TWDR to the temporary memory
 		data = TWDR;
